@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites name="vitest tests" tests="39" failures="0" errors="0" time="1.053723208">
+    <testsuite name="tests/ConfirmationView.component.test.js" timestamp="2026-03-01T06:48:40.975Z" hostname="iMacvonChristopher.fritz.box" tests="2" failures="0" errors="0" skipped="0" time="0.022210208">
+        <testcase classname="tests/ConfirmationView.component.test.js" name="ConfirmationView &gt; renders all required confirmation data after successful registration" time="0.016981375">
+        </testcase>
+        <testcase classname="tests/ConfirmationView.component.test.js" name="ConfirmationView &gt; renders pickup address block when pickup data is present" time="0.004000167">
+        </testcase>
+    </testsuite>
+    <testsuite name="tests/LayoutAndLegalViews.test.js" timestamp="2026-03-01T06:48:40.975Z" hostname="iMacvonChristopher.fritz.box" tests="4" failures="0" errors="0" skipped="0" time="0.028335334">
+        <testcase classname="tests/LayoutAndLegalViews.test.js" name="layout and legal views &gt; renders header with logo, title and global navigation links" time="0.021365541">
+        </testcase>
+        <testcase classname="tests/LayoutAndLegalViews.test.js" name="layout and legal views &gt; renders footer with legal hints and links" time="0.003212584">
+        </testcase>
+        <testcase classname="tests/LayoutAndLegalViews.test.js" name="layout and legal views &gt; renders imprint page content" time="0.00166725">
+        </testcase>
+        <testcase classname="tests/LayoutAndLegalViews.test.js" name="layout and legal views &gt; renders privacy page content" time="0.00077775">
+        </testcase>
+    </testsuite>
+    <testsuite name="tests/QualityAttributes.test.js" timestamp="2026-03-01T06:48:40.975Z" hostname="iMacvonChristopher.fritz.box" tests="4" failures="0" errors="0" skipped="0" time="0.885186375">
+        <testcase classname="tests/QualityAttributes.test.js" name="quality attribute coverage &gt; uses responsive layout and overflow-safe styling for core views" time="0.001578875">
+        </testcase>
+        <testcase classname="tests/QualityAttributes.test.js" name="quality attribute coverage &gt; keeps interactive controls keyboard-accessible through semantic elements and focus styles" time="0.000439458">
+        </testcase>
+        <testcase classname="tests/QualityAttributes.test.js" name="quality attribute coverage &gt; uses a standard Vue and Vite setup for broad modern-browser delivery" time="0.000279833">
+        </testcase>
+        <testcase classname="tests/QualityAttributes.test.js" name="quality attribute coverage &gt; builds production assets within a conservative bundle-size budget" time="0.881759625">
+        </testcase>
+    </testsuite>
+    <testsuite name="tests/RegistrationForm.component.test.js" timestamp="2026-03-01T06:48:40.976Z" hostname="iMacvonChristopher.fritz.box" tests="11" failures="0" errors="0" skipped="0" time="0.099145541">
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; shows only delivery selection initially" time="0.022739166">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; shows donation fields immediately for office handover" time="0.008702333">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; highlights visible required fields before user completes them" time="0.004864583">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; requires valid pickup address before showing donation fields for pickup" time="0.015157875">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; shows pending highlight on pickup address inputs before completion" time="0.003797541">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; shows validation errors on submit when required fields are missing" time="0.002107959">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; shows and clears select field validation errors after correction" time="0.00530425">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; shows and clears pickup postal validation error after correction" time="0.004395167">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; resets pickup address values when switching from pickup to office and back" time="0.010935167">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; submits office flow successfully and navigates to confirmation" time="0.014334458">
+        </testcase>
+        <testcase classname="tests/RegistrationForm.component.test.js" name="RegistrationForm component flow &gt; submits pickup flow successfully after address gate and saves normalized data" time="0.005822708">
+        </testcase>
+    </testsuite>
+    <testsuite name="tests/formLogic.test.js" timestamp="2026-03-01T06:48:40.976Z" hostname="iMacvonChristopher.fritz.box" tests="18" failures="0" errors="0" skipped="0" time="0.01884575">
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; normalizes input values robustly" time="0.0009385">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; returns the first two postal code digits" time="0.000136209">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; validates postal code format with boundary cases" time="0.000159208">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; detects pickup postal code inside the office area" time="0.000076958">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; detects whether pickup address is complete including whitespace-only inputs" time="0.000071">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; allows donation details immediately for office handover" time="0.00035225">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; blocks donation details for pickup until address is complete and postal code valid" time="0.000078958">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; validates office form successfully without pickup address" time="0.000320458">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; accepts valid pickup form including matching postal prefix" time="0.00006075">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; returns required-field errors for empty form" time="0.000103125">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; validates pickup address fields and postal code format" time="0.000115833">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; treats whitespace-only pickup address inputs as missing" time="0.000059917">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; rejects pickup postal code outside the office area with explanation" time="0.000042542">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; prioritizes postal format error before area check" time="0.000062791">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; trims pickup postal code before validation and area check" time="0.000030291">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; builds confirmation payload for office handover" time="0.014651542">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; builds confirmation payload for pickup with normalized address" time="0.000241083">
+        </testcase>
+        <testcase classname="tests/formLogic.test.js" name="formLogic &gt; builds localized timestamp fields for payload" time="0.000157458">
+        </testcase>
+    </testsuite>
+</testsuites>
